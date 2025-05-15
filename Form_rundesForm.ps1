@@ -33,3 +33,5 @@ if ($closeButton -ne $null) {
 
 # Fenster anzeigen
 $window.ShowDialog() | Out-Null
+
+#[System.AppDomain]::CurrentDomain.GetAssemblies() | Where-Object { $_.Location -match "PresentationFramework" }
