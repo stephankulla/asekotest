@@ -167,9 +167,13 @@ Add-Type -AssemblyName PresentationFramework
                 </Button.Style>
             </Button>
             <TextBox x:Name="Headline" HorizontalAlignment="Left" Margin="94,-49,0,0" Text="Änderungsdetails von Personen" TextWrapping="Wrap" VerticalAlignment="Top" Width="701" FontSize="24" Background="Transparent" BorderThickness="0" FontWeight="Bold"/>
-            <TextBox x:Name="txtBemmerkung"  HorizontalAlignment="Left" Height="69" Margin="189,403,0,0" Text="Bemerkung" TextWrapping="Wrap" VerticalAlignment="Top" Width="886"/>
+            <TextBlock x:Name="txtBemmerkung" Background="White" HorizontalAlignment="Left" Height="69" Margin="189,403,0,0" Text="Bemerkung" TextWrapping="Wrap" VerticalAlignment="Top" Width="376"/>
             <Label HorizontalAlignment="Left" Height="46" Margin="81,403,0,0" VerticalAlignment="Top" Width="87">
                 <TextBlock Text="Bemerkung/ Begründung" TextWrapping="Wrap"/>
+            </Label>
+            <TextBlock x:Name="txtBemmerkungMonie" Background="White" HorizontalAlignment="Left" Height="69" Margin="770,403,0,0" Text="Bemerkung" TextWrapping="Wrap" VerticalAlignment="Top" Width="376"/>
+            <Label HorizontalAlignment="Left" Height="46" Margin="660,403,0,0" VerticalAlignment="Top" Width="87">
+                <TextBlock Text="Bemerkung zu Monie" TextWrapping="Wrap"/>
             </Label>
 
         </Grid>
